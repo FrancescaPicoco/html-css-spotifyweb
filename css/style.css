@@ -6,7 +6,7 @@ main{ height: var(--main-height)
 
 footer{
     height: 10em;
-    background-color: darkslategray;
+    background-color: rgb(80, 115, 149);
 }
 nav{
     width: 20%;
@@ -66,6 +66,7 @@ nav{
     height: var(--main-height);
     width: 100%;
     background-color: rgb(96, 90, 128);
+    overflow: scroll;
 }
 .music-kind{
     width: 100%;
@@ -75,8 +76,8 @@ nav{
 }
 .kind-cont{
     width: 70%;
-    height: 100%;
-    background-color:rgb(148, 91, 101);
+    /*height: 100%;
+    background-color:rgb(148, 91, 101);*/
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
@@ -92,3 +93,67 @@ nav{
     border-bottom: 2px solid black;
     cursor: pointer;
 }
+
+.sub-ess{
+    background-color: rgb(71, 47, 93);
+    margin: 1.5rem;
+    overflow: scroll;
+}
+.cont-played{
+    background-color: slategrey;
+    height: 20em;
+    padding: 1rem;
+}
+.cont-for-u {
+    background-color: slategrey;
+    height: 20em;
+    padding: 1rem;
+}
+.pop-cont{
+    background-color: slategrey;
+    height: 20em;
+    padding: 1rem;
+}
+.card{
+    width: calc((100% / 6) - 1rem);
+    height:100%;
+    background-color: rgb(220, 193, 232);
+    border: 3px solid black;
+    margin-right: 0.5rem;
+}
+.card-top{
+    height: 75%;
+    width: 100%;
+    background-color: rgb(129, 101, 155);
+}
+.card-bot{
+    height: 25%;
+    width: 100%;
+    background-color: slateblue;
+}
+.gray-txt{
+    color: slategray;
+    font-size: 20px;
+}
+#circle{
+    /*USARE ASPECT-RATIO*/
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blanchedalmond;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
