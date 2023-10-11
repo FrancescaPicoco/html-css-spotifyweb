@@ -1,6 +1,7 @@
 :root {
     --main-height :calc(100vh - 5em);
 }
+body{po}
 main{
     /*width: 100%;*/ 
     height: var(--main-height);
@@ -8,11 +9,15 @@ main{
 
 footer{
     height: 5em;
-    background-color: rgb(80, 115, 149);
+    /*background-color: rgb(80, 115, 149);*/
+    background-color: rgb(52, 39, 39);
+    position: relative;
+    z-index: 999;
 }
 nav{
     width: 20%;
-    background-color: rgb(44, 61, 78) ;
+    /*background-color: rgb(44, 61, 78) ;*/
+    background-color: black;
     height:var(--main-height);
     display: flex;
     flex-direction: column;
@@ -23,28 +28,30 @@ h2{
 p{
     color: slategray;
 }
+i{
+    color: white;
+
+}
 /*nav > #foot-nav{
     align-self: flex-end;
 }*/
 #main-content{
     width: 80%;
     height: var(--main-height);
-    background-color: slategrey;
 }
 #logo{
-    background-color: cornflowerblue;
+    
 }
 #logo .logo-img{
     width: 50%;
     padding: 1.5rem;
 }
 #home-cont{
-    background-color: slategray;
 }
 .icn-nav{
     border: 1px solid black;
-    font-size: 20px;
-    padding: 1rem;
+    font-size: 30px;
+    padding: 1rem 0;
 }
 .icn-nav:hover{
     border-left: 5px solid greenyellow;
@@ -59,7 +66,7 @@ p{
 .ply-scroll{
     /*width: 100%;*/
     height: 10em;
-    background-color: cadetblue;
+    background-color: rgb(38, 42, 43);
     overflow: scroll;
     margin-top: 1rem;
 }
@@ -81,7 +88,8 @@ p{
 .upgrade{
     /*height: 8em;*/
     /*width: 100%;*/
-    background-color: rgb(80, 115, 149);
+    /*background-color: rgb(80, 115, 149);*/
+    background-color: rgba(21, 20, 20, 0.82);
     display: flex;
     justify-content: end;
 }
@@ -89,12 +97,12 @@ p{
     height: var(--main-height);
     /*width: 100%;*/
     /*background-color: rgb(96, 90, 128);*/
-    background-color: rgb(39, 39, 40);
+    background-color: rgba(27, 27, 28);
     overflow: scroll;
 }
 .music-kind{
     width: 100%;
-    background-color: rgb(170, 140, 145);
+    /*background-color: rgb(170, 140, 145);*/
     display: flex;
     justify-content: center;
 }
@@ -112,9 +120,10 @@ p{
 .txt-kind{
     font-size: 0.8rem;
     padding: 1rem;
+    color: white;
 }
 .txt-kind:hover{
-    border-bottom: 2px solid black;
+    border-bottom: 2px solid rgb(255, 255, 255);
     cursor: pointer;
 }
 
@@ -124,7 +133,7 @@ p{
 }
 .cont-played , .cont-for-u , .pop-cont{
     /*background-color: slategrey;*/
-    height: 20em;
+    /*height: 20em;*/
     padding: 1rem;
 }
 
@@ -151,6 +160,10 @@ p{
     height: 205px;
     border-radius: 50%;
     background-color: black;
+}
+.crc-img{
+    /*aspect-ratio: 1:1;*/
+    border-radius: 50%;
 }
 
 @media  and (max-width: 768px) {
