@@ -50,7 +50,7 @@ i{
 }
 .icn-nav{
     border: 1px solid black;
-    font-size: 30px;
+    font-size: 25px;
     padding: 1rem 0;
 }
 .icn-nav:hover{
@@ -89,7 +89,7 @@ i{
     /*height: 8em;*/
     /*width: 100%;*/
     /*background-color: rgb(80, 115, 149);*/
-    background-color: rgba(21, 20, 20, 0.82);
+    background-color: rgba(21, 20, 20);
     display: flex;
     justify-content: end;
 }
@@ -160,6 +160,7 @@ i{
     height: 205px;
     border-radius: 50%;
     background-color: black;
+    margin:0 1rem;
 }
 .crc-img{
     /*aspect-ratio: 1:1;*/
