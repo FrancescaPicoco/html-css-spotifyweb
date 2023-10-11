@@ -1,0 +1,32 @@
+
+.big-container{
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    height: calc(100% - 10em);
+    background-color: black;
+}
+
+footer{
+    height: 10em;
+    background-color: darkslategray;
+}
+nav{
+    max-width: 20%;
+    background-color: cadetblue;
+    height: 100%;
+}
+#main-content{
+    width: 80%;
+    height: 100%;
+    background-color: slategrey;
+}
+#logo{
+    display: flex;
+    align-items: flex-end;
+    background-color: cornflowerblue;
+}
+#logo img{
+    width: 50%;
+}
