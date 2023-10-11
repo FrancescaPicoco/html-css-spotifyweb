@@ -16,6 +16,8 @@ nav{
     max-width: 20%;
     background-color: cadetblue;
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 #main-content{
     width: 80%;
@@ -24,9 +26,26 @@ nav{
 }
 #logo{
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     background-color: cornflowerblue;
 }
-#logo img{
+#logo .logo-img{
     width: 50%;
+}
+#home-cont{
+    background-color: slategray;
+}
+.icn-nav{
+    border: 1px solid black;
+    height: 4em;
+}
+#plylist-cont{
+    background-color: cornflowerblue;
+    height: 20em;
+}
+#nav-foot{
+    align-self: end;
+    height: 8em;
+    border: 1px solid black;
+    width: 100%;
 }
