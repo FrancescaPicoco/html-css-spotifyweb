@@ -1,11 +1,7 @@
-
-.big-container{
-    width: 100vw;
-    height: 100vh;
+:root {
+    --main-height :calc(100vh - 10em);
 }
-main{
-    height: calc(100% - 10em);
-    background-color: black;
+main{ height: var(--main-height)
 }
 
 footer{
@@ -13,24 +9,23 @@ footer{
     background-color: darkslategray;
 }
 nav{
-    max-width: 20%;
-    background-color: cadetblue;
-    height: 100%;
+    width: 20%;
+    background-color: rgb(46, 84, 85);
+    height:var(--main-height);
     display: flex;
     flex-direction: column;
 }
 #main-content{
     width: 80%;
-    height: 100%;
+    height: var(--main-height);
     background-color: slategrey;
 }
 #logo{
-    display: flex;
-    align-items: center;
     background-color: cornflowerblue;
 }
 #logo .logo-img{
-    width: 50%;
+    width: 55%;
+    padding: 1.5rem;
 }
 #home-cont{
     background-color: slategray;
@@ -42,10 +37,58 @@ nav{
 #plylist-cont{
     background-color: cornflowerblue;
     height: 20em;
+    border: 9px solid salmon;
+    width: 100%;
 }
 #nav-foot{
     align-self: end;
     height: 8em;
-    border: 1px solid black;
+    border: 3px solid white;
     width: 100%;
+}
+#up{
+    padding: 1rem 3rem;
+    border: 1px solid white;
+    color: white;
+    border-radius: 30px;
+    margin: 2rem 0;
+    display: inline-block;
+}
+
+.upgrade{
+    /*height: 8em;*/
+    width: 100%;
+    background-color: rgb(80, 115, 149);
+    display: flex;
+    justify-content: end;
+}
+#essential{
+    height: var(--main-height);
+    width: 100%;
+    background-color: rgb(96, 90, 128);
+}
+.music-kind{
+    width: 100%;
+    background-color: rgb(170, 140, 145);
+    display: flex;
+    justify-content: center;
+}
+.kind-cont{
+    width: 70%;
+    height: 100%;
+    background-color:rgb(148, 91, 101);
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+.kind{
+    height: 100%;
+}
+.txt-kind{
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+.txt-kind:hover{
+    border-bottom: 2px solid black;
+    cursor: pointer;
 }
