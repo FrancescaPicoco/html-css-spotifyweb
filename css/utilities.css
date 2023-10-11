@@ -16,6 +16,7 @@
       .pos-abs{position: absolute;}
       .d-inbl{display: inline-block;}
       .d-in{display: inline;}
+      .d-bl{display: block;}
       .d-none{display: none;}
          /***FLEX***/
       .d-flex{display: flex;}
@@ -117,11 +118,12 @@
       .pt-100{padding-top: 400px;}
 
              /*Padding Rem*/
-      .plr-05{padding: 0 0.5rem;}
+      .ptb-05{padding: 0.5rem 0;}
       .pad-1{padding: 1rem;}
       .pad-1d5{padding: 1.5rem;}
       .ptb-1{padding: 1rem 0;}
       .pr-1{padding-right: 1rem;}
+      .pl-15{padding-left: 1.5rem;}
       .plr-15{padding: 0 1.5rem;}
       .pad-2{padding: 2rem;}
       .ptb-2{padding: 2rem 0;}
