@@ -1,5 +1,5 @@
 :root {
-    --main-height :calc(100vh - 10em);
+    --main-height :calc(100vh - 5em);
 }
 main{
     /*width: 100%;*/ 
@@ -7,7 +7,7 @@ main{
 }
 
 footer{
-    height: 10em;
+    height: 5em;
     background-color: rgb(80, 115, 149);
 }
 nav{
@@ -17,6 +17,12 @@ nav{
     display: flex;
     flex-direction: column;
 }
+h2{
+    color: white;
+}
+p{
+    color: slategray;
+}
 /*nav > #foot-nav{
     align-self: flex-end;
 }*/
@@ -24,13 +30,12 @@ nav{
     width: 80%;
     height: var(--main-height);
     background-color: slategrey;
-    overflow: scroll;
 }
 #logo{
     background-color: cornflowerblue;
 }
 #logo .logo-img{
-    width: 55%;
+    width: 50%;
     padding: 1.5rem;
 }
 #home-cont{
@@ -38,21 +43,21 @@ nav{
 }
 .icn-nav{
     border: 1px solid black;
-    font-size: 40px;
+    font-size: 20px;
     padding: 1rem;
 }
 .icn-nav:hover{
     border-left: 5px solid greenyellow;
 }
 #plylist-cont{
-    width: 100%;
+    padding: 1rem;
 }
 .pls{
-    padding: 1rem;
+    padding: 0.5rem;
     background-color: slategray;
 }
 .ply-scroll{
-    width: 100%;
+    /*width: 100%;*/
     height: 10em;
     background-color: cadetblue;
     overflow: scroll;
@@ -69,22 +74,23 @@ nav{
     border: 1px solid white;
     color: white;
     border-radius: 30px;
-    margin: 2rem 0;
+    margin: 1rem 0;
     display: inline-block;
 }
 
 .upgrade{
     /*height: 8em;*/
-    width: 100%;
+    /*width: 100%;*/
     background-color: rgb(80, 115, 149);
     display: flex;
     justify-content: end;
 }
 #essential{
     height: var(--main-height);
-    width: 100%;
-    background-color: rgb(96, 90, 128);
-    
+    /*width: 100%;*/
+    /*background-color: rgb(96, 90, 128);*/
+    background-color: rgb(39, 39, 40);
+    overflow: scroll;
 }
 .music-kind{
     width: 100%;
@@ -101,10 +107,10 @@ nav{
     margin: 1rem 0;
 }
 .kind{
-    height: 100%;
+    /*height: 100%;*/
 }
 .txt-kind{
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     padding: 1rem;
 }
 .txt-kind:hover{
@@ -113,40 +119,27 @@ nav{
 }
 
 .sub-ess{
-    background-color: rgb(71, 47, 93);
+    /*background-color: rgb(31, 31, 32);*/
     margin: 1.5rem;
 }
-.cont-played{
-    background-color: slategrey;
+.cont-played , .cont-for-u , .pop-cont{
+    /*background-color: slategrey;*/
     height: 20em;
     padding: 1rem;
 }
-.cont-for-u {
-    background-color: slategrey;
-    height: 20em;
-    padding: 1rem;
-}
-.pop-cont{
-    background-color: slategrey;
-    height: 20em;
-    padding: 1rem;
-}
+
 .card{
     width: calc((100% / 6) - 1rem);
-    height:100%;
-    background-color: rgb(220, 193, 232);
-    border: 3px solid black;
+    /*height:100%;*/
     margin-right: 0.5rem;
 }
 .card-top{
-    height: 75%;
-    width: 100%;
-    background-color: rgb(129, 101, 155);
+    /*height: 75%;
+    width: 100%;*/
 }
 .card-bot{
-    height: 25%;
-    width: 100%;
-    background-color: slateblue;
+    /*height: 25%;
+    width: 100%;*/
 }
 .gray-txt{
     color: slategray;

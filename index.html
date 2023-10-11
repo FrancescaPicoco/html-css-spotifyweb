@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Spotify</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link rel="stylesheet" type="text/css" href="css/utilities.css">
@@ -17,23 +20,23 @@
 
                 <div id="home-cont">
                     <div class="icn-nav">
-                        <i class="fa-solid fa-house"></i><span class="fs-25 pl-15 wei-bold">Home</span>
+                        <i class="fa-solid fa-house"></i><span class="pl-15 wei-bold">Home</span>
                     </div>
                     <div class="icn-nav">
-                        <i class="fa-solid fa-magnifying-glass"></i><span class="fs-25 pl-15 wei-bold">Cerla</span>
+                        <i class="fa-solid fa-magnifying-glass"></i><span class="pl-15 wei-bold">Cerca</span>
                     </div>
                     <div class="icn-nav">
-                        <i class="fa-solid fa-lines-leaning"></i><span class="fs-25 pl-15 wei-bold">La tua libreria</span>
+                        <i class="fa-solid fa-lines-leaning"></i><span class="pl-15 wei-bold">La tua libreria</span>
                     </div>
                 </div>
 
                 <div id="plylist-cont">
                     <div>
-                        <span class="fs-28 wei-bold">PLAYLIST</span>
+                        <span class="fs-20 pt-06 wei-bold mb-1 d-bl">PLAYLIST</span>
                     </div>
-                    <div>
-                        <a href="#" class="pls"><i class="fa-solid fa-plus fs-40"></i></a>
-                        <span>Crea Playlist</span>
+                    <div class="">
+                        <a href="#" class="pls"><i class="fa-solid fa-plus fs-20"></i></a>
+                        <span class="fs-20">Crea Playlist</span>
                     </div>
                     <div class="ply-scroll">
                         <span class="d-bl fs-20 ptb-05">Crea Playlist</span>
@@ -57,7 +60,7 @@
             <section id="main-content">
 
                 <section class="upgrade">
-                    <a href="#" id="up">EFFETTUA L'UPGRADE</a>
+                    <a href="#" id="up"><span class="white">EFFETTUA L'UPGRADE</span></a>
                 </section>
 
                 <section id="essential">
@@ -75,38 +78,68 @@
 
                     <section class="sub-ess">
                         <div class="recently">
-                            <h2 class="pad-1 fs-32">Recently played</h2>
+                            <h2 class="pad-1 fs-25">Recently played</h2>
                         </div>
                         <div class="cont-played d-flex">
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/metal_lifting.jpg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">Heavy Metal</h2>
+                                    <p class="txt-alg">Subtitle</p>
+                                </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/stranger.jpeg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot mtb-1">
+   <!--dare line-h solo a p-->      <h2 class="fs-18 txt-alg">Sranger Things, Vol.1 &lpar;a Netflix Original Series Soundtrack&rpar;</h2>
+                                    <p class="txt-alg line-h8">Kylie Dixon &amp; Michael Stein</p>
+                                </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/aquietplace.jpeg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">A quiet place</h2>
+                                    <p class="txt-alg">Subtitle</p>
+                                </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/split.jpeg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">Split</h2>
+                                    <p class="txt-alg">Subtitle</p>
+                                </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/cure.jpeg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">A cure for wellness</h2>
+                                    <p class="txt-alg">Subtitle</p>
+                                </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top"></div>
-                                <div class="card-bot"></div>
+                                <div class="card-top">
+                                    <img src="img/sinister.jpeg" class="w obj-f-cov">
+                                </div>
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">Sinister</h2>
+                                    <p class="txt-alg">Subtitle</p>
+                                </div>
                             </div>
                         </div>
 
-                        <div class="create-for pad-1">
-                            <h2 class="fs-32">Creato per jhon Doe</h2>
-                            <p class="gray-txt">Più ascolti, più accurati saranno i suggerimenti.</p>
+                        <div class="create-for mt-2 line-h">
+                            <h2 class="fs-25">Creato per Jhon Doe</h2>
+                            <p>Più ascolti, più accurati saranno i suggerimenti.</p>
                         </div>
 
                         <div class="cont-for-u d-flex">
@@ -121,7 +154,7 @@
                         </div>
 
                         <div class="popular pad-1">
-                            <h2 class="fs-32">Artisti più popolari</h2>
+                            <h2 class="fs-25">Artisti più popolari</h2>
                             <p class="gray-txt">Più ascolti, più accurati saranno i suggerimenti.</p>
                         </div>
 
@@ -142,7 +175,7 @@
         </main>
 
         <footer class="d-flex jcont-betw">
-            <div class="rgt-foot d-flex">
+         <div class="rgt-foot d-flex">
                 <div>
                     <img>
                 </div>
@@ -202,7 +235,7 @@
                         <i class="fa-solid fa-volume-high"></i>
                     </div>
                     <div></div>
-            </div>
+            </div> 
         </footer> 
 
 </body>
