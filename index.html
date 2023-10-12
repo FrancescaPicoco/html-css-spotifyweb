@@ -52,7 +52,7 @@
                     </div>
                 </div>
 
-                <div id="nav-foot">
+                <div id="nav-foot mt-2">
                     <div class="download d-flex ptb-05">
                       <img src="img/download.svg" class="d-in w-6">
                       <p class="gray pl-05">installa app</p>
@@ -67,24 +67,24 @@
 
             <section id="main-content">
 
-                <section class="upgrade">
+                <div class="upgrade">
                     <a href="#" id="up"><span class="white fs-13">EFFETTUA L'UPGRADE</span></a>
-                </section>
+                </div>
 
-                <section id="essential">
+                <div id="essential">
 
-                    <section class="music-kind">
+                    <div class="music-kind">
                         <div class="kind-cont">
                             <div class="kind"><a href="#" class="txt-kind">IN EVIDENZA</a></div>
                             <div class="kind"><a href="#" class="txt-kind">PODCAST</a></div>
                             <div class="kind"><a href="#" class="txt-kind">CLASSIFICHE</a></div>
-                            <div class="kind"><a href="#" class="txt-kind">GENERIGENERI E MOOD</a></div>
-                            <div class="kind"><a href="#" class="txt-kind">NUOVENUOVE USCITE</a></div>
-                            <div class="kind"><a href="#" class="txt-kind">SCOPRISCOPRI</a></div>
+                            <div class="kind"><a href="#" class="txt-kind">GENERI E MOOD</a></div>
+                            <div class="kind"><a href="#" class="txt-kind">NUOVE USCITE</a></div>
+                            <div class="kind"><a href="#" class="txt-kind">SCOPRI</a></div>
                         </div>
-                    </section>
+                    </div>
 
-                    <section class="sub-ess">
+                    <div class="sub-ess">
                         <div class="recently">
                             <h2 class="pad-1 fs-18">Recently played</h2>
                         </div>
@@ -171,7 +171,7 @@
 
                         <div class="popular pad-1">
                             <h2 class="fs-18">Artisti più popolari</h2>
-                            <p class="gray-txt fs-13">Più ascolti, più accurati saranno i suggerimenti.</p>
+                            <p class="gray fs-13">Più ascolti, più accurati saranno i suggerimenti.</p>
                         </div>
 
                         <div class="pop-cont d-flex">
@@ -188,13 +188,13 @@
                                 <div class="card-bot"></div> 
                             </div>  
                         </div>
-                    </section>
-                </section>
+                    </div>
+                </div>
 
             </section>
         </main>
 
-        <footer class="d-flex jcont-betw">
+        <footer class="d-flex jcont-betw ">
             <div class="rgt-foot d-flex">
                 <div class="img-lft d-flex alg-items">
                     <img src="img/player_left.jpg" class="w-30 pad-1">
@@ -235,17 +235,19 @@
                         <i class="fa-solid fa-arrow-rotate-right"></i>
                     </div>
                 </div>
-                <div class="d-flex jcont-cent">
+                <div class="d-flex jcont-cent alg-items">
                     <div>
-                        <span class="fs-15 d-inbl">4.35</span>
+                        <span class="fs-15 d-inbl pr-1">4.35</span>
                     </div>
-                    <div></div>
                     <div>
-                        <span class="fs-15 d-inbl">0.25</span>
+                        <input type="range" id="volume" min="0" max="4.35" />
+                    </div>
+                    <div>
+                        <span class="fs-15 d-inbl pl-1">0.25</span>
                     </div>
                 </div>
             </div>
-            <div class="lft-foot d-flex">
+            <div class="lft-foot d-flex alg-items">
                     <div class="pad-1">
                         <i class="fa-solid fa-list-ul"></i>
                     </div>
@@ -255,7 +257,11 @@
                     <div class="pad-1">
                         <i class="fa-solid fa-volume-high"></i>
                     </div>
-                    <div></div>
+                    <div>
+                        <div class="bar"><div class="dot"></div></div>
+                        
+                        <!--<input type="range" id="volume" min="0" max="30" class="vol" />-->
+                    </div>
             </div> 
         </footer> 
 
