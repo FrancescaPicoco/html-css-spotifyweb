@@ -1,26 +1,28 @@
 :root {
-    --main-height :calc(100vh - 5em);
+    --main-height :calc(100vh - 10vh);
 }
-body{po}
+
 main{
     /*width: 100%;*/ 
     height: var(--main-height);
+    overflow: scroll;
 }
 
 footer{
-    height: 5em;
-    /*background-color: rgb(80, 115, 149);*/
-    background-color: rgb(52, 39, 39);
-    position: relative;
-    z-index: 999;
+    height: 10vh;
+    background-color: rgb(80, 115, 149);
+    */background-color: rgb(41, 41, 41);*/
+    position: relativ
+    z-index: 99
 }
 nav{
     width: 20%;
     /*background-color: rgb(44, 61, 78) ;*/
     background-color: black;
-    height:var(--main-height);
+    max-height: var(--main-height)
     display: flex;
     flex-direction: column;
+    padding-left: 1rem;
 }
 h2{
     color: white;
@@ -43,8 +45,8 @@ i{
     
 }
 #logo .logo-img{
-    width: 50%;
-    padding: 1.5rem;
+    width: 40%;
+    padding-top: 1.5rem;
 }
 #home-cont{
 }
@@ -57,27 +59,28 @@ i{
     border-left: 5px solid greenyellow;
 }
 #plylist-cont{
-    padding: 1rem;
+    
 }
 .pls{
     padding: 0.5rem;
-    background-color: slategray;
+    background-color:rgb(32, 32, 32);
 }
 .ply-scroll{
     /*width: 100%;*/
-    height: 10em;
-    background-color: rgb(38, 42, 43);
+    height: 7em;
+    background-color: rgb(32, 32, 32);
     overflow: scroll;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    margin-right: 0.5rem
 }
 #nav-foot{
-    align-self: flex-end;
-    height: 8em;
+    align-self:;
+    height: 3em;
     border: 3px solid white;
     width: 100%;
 }
 #up{
-    padding: 1rem 3rem;
+    padding: 0.4rem 2rem;
     border: 1px solid white;
     color: white;
     border-radius: 30px;
@@ -94,14 +97,11 @@ i{
     justify-content: end;
 }
 #essential{
-    height: var(--main-height);
-    /*width: 100%;*/
     /*background-color: rgb(96, 90, 128);*/
     background-color: rgba(27, 27, 28);
-    overflow: scroll;
 }
 .music-kind{
-    width: 100%;
+    /*width: 100%;*/
     /*background-color: rgb(170, 140, 145);*/
     display: flex;
     justify-content: center;
@@ -138,9 +138,10 @@ i{
 }
 
 .card{
-    width: calc((100% / 6) - 1rem);
+    max-width: calc((100% / 6) - 2rem);
     /*height:100%;*/
-    margin-right: 0.5rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 .card-top{
     /*height: 75%;
@@ -156,18 +157,33 @@ i{
 }
 #circle{
     /*USARE ASPECT-RATIO*/
-    width: 205px;
-    height: 205px;
+    /*width: 205px;
+    height: 205px;*/
     border-radius: 50%;
-    background-color: black;
     margin:0 1rem;
 }
 .crc-img{
     /*aspect-ratio: 1:1;*/
     border-radius: 50%;
 }
-
-@media  and (max-width: 768px) {
+.img-lft{
+    
+}
+.rgt-foot{
+     width: 30%;
+}
+.cntr-foot{
+      width: 100%;
+}
+.lft-foot{
+      width: 30%;
+}
+@media screen and (min-width:768px) and (max-width:991px) {
+    .card{ 
+        width: calc((100% / 4) - 2rem);
+        margin-left:1rem;
+        margin-right:1rem;
+    }
     .cont-played{
         flex-wrap:wrap;
     }
