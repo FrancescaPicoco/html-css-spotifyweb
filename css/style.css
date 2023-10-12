@@ -1,25 +1,23 @@
 :root {
-    --main-height :calc(100vh - 10vh);
+    --main-height :calc(100vh - 9vh);
 }
-
 main{
     /*width: 100%;*/ 
     height: var(--main-height);
-    overflow: scroll;
+    /*overflow: scroll;*/
 }
-
+/*button{background:none;}*/
 footer{
-    height: 10vh;
+    height: 9vh;
     background-color: rgb(80, 115, 149);
-    */background-color: rgb(41, 41, 41);*/
+    background-color: rgb(41, 41, 41);
     position: relativ
-    z-index: 99
 }
 nav{
     width: 20%;
     /*background-color: rgb(44, 61, 78) ;*/
     background-color: black;
-    max-height: var(--main-height)
+    height: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
@@ -34,12 +32,10 @@ i{
     color: white;
 
 }
-/*nav > #foot-nav{
-    align-self: flex-end;
-}*/
 #main-content{
     width: 80%;
     height: var(--main-height);
+    overflow: scroll;
 }
 #logo{
     
@@ -67,17 +63,25 @@ i{
 }
 .ply-scroll{
     /*width: 100%;*/
-    height: 7em;
+    height: 10em;
     background-color: rgb(32, 32, 32);
     overflow: scroll;
     margin: 1rem 0;
     margin-right: 0.5rem
 }
 #nav-foot{
-    align-self:;
-    height: 3em;
-    border: 3px solid white;
     width: 100%;
+    margin-top: auto;
+    padding: 0.5rem;
+}
+hr{
+    width: 50%;
+}
+.prof-img{
+    height: 25px;
+    width: 25px;
+    background-color: slategray;
+    border-radius: 50%
 }
 #up{
     padding: 0.4rem 2rem;
