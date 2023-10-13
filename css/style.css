@@ -92,14 +92,13 @@ p{
     height: 100%;
 }
 .music-kind{
-
     display: flex;
     justify-content: center;
 }
 .kind-cont{
     width: 70%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1rem 0;
 }
 .txt-kind{
@@ -108,7 +107,7 @@ p{
     color: white;
 }
 .txt-kind:hover{
-    border-bottom: 2px solid rgb(255, 255, 255);
+    border-bottom: 2px solid rgb(78, 249, 35);
     cursor: pointer;
 }
 /***SUB ESSENTIAL***/
@@ -200,11 +199,6 @@ footer{
         margin-left:1rem;
         margin-right:1rem;
     }
-    /*.sub-ess{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }*/
     .cont-played , .cont-for-u , .pop-cont{
         flex-wrap:wrap;
     }
@@ -215,8 +209,15 @@ footer{
     main{
         background-color: darkcyan;
     }
+    #down{
+        width: 15%;
+        padding-right: 0.1rem;
+    }
 }
 @media  screen and (max-width: 768px) and (min-width: 576px) {
+    #down{
+        width: 15%;
+    }
     .card{ 
         width: calc((100% / 2) - 2rem);
         margin-left:1rem;
@@ -303,6 +304,7 @@ footer{
    .lft-foot{
          width: 33%;
    }
+
 }
 
 
