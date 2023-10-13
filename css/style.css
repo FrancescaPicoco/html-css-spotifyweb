@@ -2,52 +2,27 @@
     --main-height :calc(100vh - 10vh);
 }
 main{
-    /*width: 100%;*/ 
     height: var(--main-height);
     background-color: rgba(27, 27, 28);
-    /*overflow: scroll;*/
 }
-/*button{background:none;}*/
-footer{
-    height: 10vh;
-    background-color: rgb(41, 41, 41);
-}
+/***NAV SECTION***/
 nav{
     width: 20%;
-    /*background-color: rgb(44, 61, 78) ;*/
     background-color: black;
     height: 100%;
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
 }
-#main-content{
-    width: 80%;
-    /*height: var(--main-height);*/
-    overflow: scroll;
-}
-h2{
-    color: white;
-}
-p{
-    color: slategray;
-}
-i{
-    color: white;
-
-}
+/***LOGO***/
 #smll-logo{
     display: none;
-}
-#logo{
-    
 }
 #logo .logo-img{
     width: 40%;
     padding-top: 1.5rem;
 }
-#home-cont{
-}
+/***NAV ICN***/
 .icn-nav{
     border: 1px solid black;
     font-size: 25px;
@@ -56,9 +31,10 @@ i{
 .icn-nav:hover{
     border-left: 5px solid greenyellow;
 }
-#plylist-cont{
-    
+i{
+    color: white;
 }
+/***PLAYLIST NAV***/
 .pls{
     padding: 0.5rem;
     background-color:rgb(32, 32, 32);
@@ -84,6 +60,19 @@ hr{
     background-color: slategray;
     border-radius: 50%
 }
+/***MAIN CONTENT***/
+#main-content{
+    width: 80%;
+    /*height: var(--main-height);*/
+    overflow: scroll;
+}
+h2{
+    color: white;
+}
+p{
+    color: slategray;
+}
+/***UPGRADE***/
 #up{
     padding: 0.4rem 2rem;
     border: 1px solid white;
@@ -94,34 +83,24 @@ hr{
 }
 
 .upgrade{
-    /*height: 8em;*/
-    /*width: 100%;*/
-    /*background-color: rgb(80, 115, 149);*/
     background-color: rgba(21, 20, 20);
     display: flex;
     justify-content: end;
 }
+/***MUSIC-KIND***/
 #essential{
-    /*background-color: rgb(96, 90, 128);*/
-    /*background-color: rgba(27, 27, 28);*/
     height: 100%;
 }
 .music-kind{
-    /*width: 100%;*/
-    /*background-color: rgb(170, 140, 145);*/
+
     display: flex;
     justify-content: center;
 }
 .kind-cont{
     width: 70%;
-    /*height: 100%;
-    background-color:rgb(148, 91, 101);*/
     display: flex;
     justify-content: space-between;
     margin: 1rem 0;
-}
-.kind{
-    /*height: 100%;*/
 }
 .txt-kind{
     font-size: 0.8rem;
@@ -132,7 +111,7 @@ hr{
     border-bottom: 2px solid rgb(255, 255, 255);
     cursor: pointer;
 }
-
+/***SUB ESSENTIAL***/
 .sub-ess{
     /*margin: 1.5rem;*/
 }
@@ -142,6 +121,15 @@ hr{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+.card{
+    width: calc((100% / 6) - 2rem);
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+.card-top{
+}
+.card-bot{
 }
 #circle:hover .play{
     display: block;
@@ -157,19 +145,6 @@ hr{
     padding: 1rem;
     flex-wrap: nowrap;
 }
-
-.card{
-    width: calc((100% / 6) - 2rem);
-    margin-right: 1rem;
-    margin-left: 1rem;
-}
-.card-top{
-}
-.card-bot{
-}
-.gray-txt{
-    color: slategray;
-}
 #circle{
     border-radius: 50%;
     margin:0 1rem;
@@ -177,8 +152,10 @@ hr{
 .crc-img{
     border-radius: 50%;
 }
-.img-lft{
-    
+/***FOOTER***/
+footer{
+    height: 10vh;
+    background-color: rgb(41, 41, 41);
 }
 .rgt-foot{
      width: 25%;
