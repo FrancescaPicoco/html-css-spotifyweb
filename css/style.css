@@ -268,9 +268,6 @@ hr{
    .lft-foot{
          width: 33%;
    }
-    main{
-        background-color: mediumpurple;
-    }
 }
 @media screen and ( max-width: 576px) {
     #smll-logo{
@@ -301,9 +298,6 @@ hr{
     #maincontent{
         width: 92%;
     }
-
-
-
     .card{ 
         width: calc((100% / 2) - 2rem);
         margin-left:1rem;
@@ -332,9 +326,6 @@ hr{
    .lft-foot{
          width: 33%;
    }
-    main{
-        background-color: rgb(51, 88, 82);
-    }
 }
 
 
