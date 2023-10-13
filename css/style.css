@@ -47,6 +47,9 @@ i{
     margin: 1rem 0;
     margin-right: 0.5rem
 }
+span:hover{
+    color: white;
+}
 #nav-foot{
     margin-top: auto;
     padding: 0.5rem;
@@ -80,11 +83,13 @@ p{
     margin: 1rem 0;
     display: inline-block;
 }
-
+#up:hover{
+    padding: 0.5rem 2.1rem;
+}
 .upgrade{
     background-color: rgba(21, 20, 20);
     display: flex;
-    justify-content: end;
+    justify-content: end;;
 }
 /***MUSIC-KIND***/
 #essential{
@@ -189,21 +194,27 @@ footer{
     height: 0.7em;
     width: 0.7em;
     border-radius: 50%;
-    background-color: rgb(52, 118, 149);
+    background-color: rgba(0, 255, 30, 0.619);
+    display: none;
 }   
-.dot:hover{
+.bar:hover .dot{
        display: block;
-       position: absolute;
+}
+.bar:hover .ltl-bar{
+    width: 2.3em;
+    height: 0.4em;
+    background-color: rgba(43, 42, 42, 0.655);
+    border-radius: 30px;
 }
 .bar{
-    width: 6em;
-    background-color: white;
+    width: 4em;
+    height: 0.4em;
+    background-color: rgb(215, 211, 211);
     border: 1px solid black;
     border-radius: 30px;
 }
-.bar:hover{
+.bar:hove{
     background-color: slategray;
-    position: relative;
 }
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
