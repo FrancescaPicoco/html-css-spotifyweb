@@ -63,7 +63,6 @@ hr{
 /***MAIN CONTENT***/
 #main-content{
     width: 80%;
-    /*height: var(--main-height);*/
     overflow: scroll;
 }
 h2{
@@ -293,7 +292,7 @@ footer{
         flex-direction: column;
         padding-left: 0.5rem;
     } 
-    .foot-icn{
+    #foot-icn{
         padding: 0.2rem;
     }
     .rgt-foot{
