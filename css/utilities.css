@@ -18,6 +18,7 @@
       .d-in{display: inline;}
       .d-bl{display: block;}
       .d-none{display: none;}
+      
          /***FLEX***/
       .d-flex{display: flex;}
       .jcont-cent{justify-content: center;}
@@ -56,33 +57,17 @@
          /*Colors*/
       
       .black{background-color: black}
-      .gray{color: gray;}
+      .gray{color: slategray;}
       .white{color: white;}
        
       .bsb{border: 1px solid rgb(26, 26, 26);}
+
       /***Margin Rem***/
       .mt-4{margin-top: 4rem;}
     
       
          /*Margin*/
-      .mt-5{margin-top: 0.3125rem;} /*5px*/
-      .mr-5{margin-right: 0.3125rem;}
-      .ml-5{margin-left: 0.3125rem;} 
-      .mb-5{margin-bottom: 0.3125rem;}     
-      .mt-10{margin-top: 10px;}   /*10*/
-      .mb-10{margin-bottom: 10px;}
-      .ml-10{margin-left:0.625rem;} 
-      .ml-15{margin-left: 0.9375rem;} /*15*/ 
-      .mr-15{margin-right:  0.9375em;}
-      .mt-20{margin-top: 1.25rem;} /*20*/
-      .mb-20{margin-bottom: 1.25rem;}
-      .mtb-20{margin-top: 1.25rem;
-              margin-bottom: 1.25rem;}
-      .mtb-30{margin: 1.875rem 0;} /*30px*/
-      .mt-50{margin-top: 3.125rem;}  /*50px*/
-      .mb-50{margin-bottom: 3.125rem;} /*50px*/
-      .ml-116{margin-left: 7.25em;}  /*116px*/
-      .mt-130{margin-top: 8.125rem;}  /*130px*/
+      
     
            /*Padding*/
       

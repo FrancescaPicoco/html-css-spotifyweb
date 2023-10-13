@@ -16,21 +16,22 @@
             <nav class="">
                 <div id="logo">
                    <img src="img/logo.svg" class="logo-img">
+                   <img src="img/logo-small.svg" id="smll-logo">
                 </div>
 
                 <div id="home-cont">
                     <div class="icn-nav">
-                        <i class="fa-solid fa-house"></i><span class="pl-15 wei-bold white fs-15">Home</span>
+                        <i class="fa-solid fa-house"></i><span class="pl-15 wei-bold white fs-15 txt-nav">Home</span>
                     </div>
                     <div class="icn-nav">
-                        <i class="fa-solid fa-magnifying-glass"></i><span class="pl-15 wei-bold white fs-15">Cerca</span>
+                        <i class="fa-solid fa-magnifying-glass"></i><span class="pl-15 wei-bold white fs-15 txt-nav">Cerca</span>
                     </div>
                     <div class="icn-nav">
-                        <i class="fa-solid fa-lines-leaning"></i><span class="pl-15 wei-bold white fs-15">La tua libreria</span>
+                        <i class="fa-solid fa-lines-leaning"></i><span class="pl-15 wei-bold white fs-15 txt-nav">La tua libreria</span>
                     </div>
                 </div>
 
-                <div id="plylist-cont">
+                <div id="plylist-cont" class="txt-nav">
                     <div>
                         <span class="fs-15 wei-bold mb-1 d-bl white">PLAYLIST</span>
                     </div>
@@ -54,13 +55,13 @@
 
                 <div id="nav-foot mt-2">
                     <div class="download d-flex ptb-05">
-                      <img src="img/download.svg" class="d-in w-6">
-                      <p class="gray pl-05">installa app</p>
+                      <img src="img/download.svg" class="d-in w-6" id="down">
+                      <p class="gray pl-05 txt-nav">installa app</p>
                     </div>
                     <hr>
                     <div class="profile d-flex ptb-05 alg-items">
                       <img src="img/profile.svg" class="prof-img">
-                      <h4 class="wei-bold white pl-05">Jhon Doe</h4>
+                      <h4 class="wei-bold white pl-05 txt-nav">Jhon Doe</h4>
                     </div>
                 </div>
             </nav>
@@ -90,8 +91,9 @@
                         </div>
                         <div class="cont-played d-flex">
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/metal_lifting.jpg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/metal_lifting.jpg" class="w d-bl">      
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-15 txt-alg">Heavy Metal</h2>
@@ -99,8 +101,9 @@
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/stranger.jpeg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/stranger.jpeg" class="w d-bl">                                   
                                 </div>
                                 <div class="card-bot mtb-1">
                                     <h2 class="fs-15 txt-alg">Sranger Things, Vol.1 &lpar;a Netflix Original Series Soundtrack&rpar;</h2>
@@ -108,8 +111,9 @@
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/aquietplace.jpeg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/aquietplace.jpeg" class="w d-bl">                                   
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-15 txt-alg">A quiet place</h2>
@@ -117,8 +121,9 @@
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/split.jpeg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/split.jpeg" class="w d-bl">
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-15 txt-alg">Split</h2>
@@ -126,8 +131,9 @@
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/cure.jpeg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/cure.jpeg" class="w d-bl">
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-15 txt-alg">A cure for wellness</h2>
@@ -135,8 +141,9 @@
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/sinister.jpeg" class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/sinister.jpeg" class="w d-bl">
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-15 txt-alg">Sinister</h2>
@@ -152,16 +159,18 @@
 
                         <div class="cont-for-u d-flex">
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/radar.jpeg"class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/radar.jpeg"class="w d-bl">
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-18 txt-alg">Release Radar</h2>
                                 </div>
                             </div>
                             <div class="card"> 
-                                <div class="card-top">
-                                    <img src="img/mixdaily.jpeg"class="w obj-f-cov">
+                                <div class="card-top pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/mixdaily.jpeg"class="w d-bl">
                                 </div>
                                 <div class="card-bot line-h8 mtb-1">
                                     <h2 class="fs-18 txt-alg">Daily Mix 1</h2>
@@ -175,17 +184,23 @@
                         </div>
 
                         <div class="pop-cont d-flex">
-                            <div class="card d-flex flex-di-col alg-items"> 
-                                <div id="circle" class="">
-                                    <img src="img/youg.jpeg" class="w crc-img">
+                            <div class="card"> 
+                                <div id="circle" class="pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/youg.jpeg" class="w crc-img d-bl">
                                 </div>
-                                <div class="card-bot"></div>
+                                <div class="card-bot">
+                                    <h2 class="fs-18 txt-alg">Love is blindness</h2>
+                                </div>
                             </div>
-                            <div class="card d-flex flex-di-col alg-items"> 
-                                <div id="circle">
-                                    <img src="img/einaudi.jpeg" class="w crc-img">
+                            <div class="card"> 
+                                <div id="circle" class="pos-rel">
+                                    <i class="fa-regular fa-circle-play play fs-32"></i>
+                                    <img src="img/einaudi.jpeg" class="w crc-img d-bl">
                                 </div>
-                                <div class="card-bot"></div> 
+                                <div class="card-bot line-h8 mtb-1">
+                                    <h2 class="fs-18 txt-alg">Einaudi</h2>
+                                </div>
                             </div>  
                         </div>
                     </div>
@@ -197,13 +212,13 @@
         <footer class="d-flex jcont-betw ">
             <div class="rgt-foot d-flex">
                 <div class="img-lft d-flex alg-items">
-                    <img src="img/player_left.jpg" class="w-30 pad-1">
+                    <img src="img/sinister.jpeg" class="w-30 pad-1 d-bl">
                     <div class="d-flex flex-di-col">
                         <div>
                             <span class="sin wei-bold">Sinister</span>
                         </div>
                         <div>
-                            <span class="gray-sin gray">Brano nome</span>
+                            <span class="gray wei-bold fs-15">Brano nome</span>
                         </div>
                     </div>
                     <div class="d-flex fold-heart">
@@ -248,18 +263,17 @@
                 </div>
             </div>
             <div class="lft-foot d-flex alg-items">
-                    <div class="pad-1">
+                    <div class="pad-1 foot-icn">
                         <i class="fa-solid fa-list-ul"></i>
                     </div>
-                    <div class="pad-1">
+                    <div class="pad-1 foot-icn">
                         <i class="fa-solid fa-tv"></i>
                     </div>
-                    <div class="pad-1">
+                    <div class="pad-1 foot-icn">
                         <i class="fa-solid fa-volume-high"></i>
                     </div>
-                    <div>
-                        <div class="bar"><div class="dot"></div></div>
-                        
+                    <div class="w drag">
+            <!----   <div class="bar w"><div class="dot"></div></div>    -->
                         <!--<input type="range" id="volume" min="0" max="30" class="vol" />-->
                     </div>
             </div> 
