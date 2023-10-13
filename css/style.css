@@ -310,7 +310,7 @@ footer{
 
 }
 
-
+/***SCROLL-BAR***/
 
 ::-webkit-scrollbar{
     width:0.4em;
@@ -320,7 +320,7 @@ footer{
 
 /*::-webkit-resizer{
     -webkit-border-radius:4px;
-    background-color:#14fa04ad;
+    background-color: rgb(40, 40, 40);
     border: rgb(5, 255, 13);
     border-radius: 4px;
 }*/
@@ -329,15 +329,15 @@ footer{
     min-height:0.3em;
     min-width:0.7em;
     -webkit-border-radius:4px;
-    background-color: rgba(5, 255, 13, 0.564);
+    background-color: rgb(40, 40, 40);
     border: none;
 }
 ::-webkit-scrollbar-thumb:hover{
-    background-color: rgb(5, 255, 13);
+    background-color:  rgba(5, 255, 13, 0.598);
     border: none;
 }
 ::-webkit-scrollbar-thumb:active{
-    background-color:rgb(5, 255, 13);
+    background-color: rgb(5, 255, 13);
     border: none;
 }
 
