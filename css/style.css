@@ -165,6 +165,9 @@ footer{
 .lft-foot{
       width: 25%;
 }
+.crc-pl:hover{
+    font-size: 35px;
+}
 #volume{
     background: slategray;
 }
