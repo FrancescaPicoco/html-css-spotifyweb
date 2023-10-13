@@ -93,6 +93,7 @@ p{
 .music-kind{
     display: flex;
     justify-content: center;
+    min-height: 6em;
 }
 .kind-cont{
     width: 70%;
@@ -105,15 +106,19 @@ p{
     padding: 1rem;
     color: white;
 }
-.txt-kind:hover{
+/*.txt-kind:hover{
     border-bottom: 2px solid rgb(78, 249, 35);
     cursor: pointer;
-}
+}*/
 .und-ln{
-    max-width: 3em;
+    width: 3em;
     height: 0.1em;
     background-color: rgb(78, 249, 35);
-    position: absolute;
+    align-items: center;
+    display: none;
+}
+.txt-kind:hover + .und-ln{
+    display: block;
 }
 /***SUB ESSENTIAL***/
 .sub-ess{
