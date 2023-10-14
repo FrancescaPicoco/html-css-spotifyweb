@@ -86,10 +86,12 @@ p{
 #up:hover{
     padding: 0.5rem 2.1rem;
 }
+
 .upgrade{
     background-color: rgba(21, 20, 20);
     display: flex;
-    justify-content: end;;
+    justify-content: end;
+    /*height: 66px;*/
 }
 /***MUSIC-KIND***/
 #essential{
@@ -194,7 +196,7 @@ footer{
     height: 0.7em;
     width: 0.7em;
     border-radius: 50%;
-    background-color: rgba(0, 255, 30, 0.619);
+    background-color: rgba(0, 255, 30);
     display: none;
 }   
 .bar:hover .dot{
@@ -213,9 +215,16 @@ footer{
     border: 1px solid black;
     border-radius: 30px;
 }
-.bar:hove{
+.bar:hover{
     background-color: slategray;
 }
+/*.big{
+    width: 10em;
+    height: 0.4em;
+    background-color: rgb(215, 211, 211);
+    border: 1px solid black;
+    border-radius: 30px;
+}*/
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     .card{ 
